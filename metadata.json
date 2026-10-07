@@ -1,0 +1,6 @@
+{
+  "name": "Estude Aqui",
+  "description": "Plataforma inteligente de estudos com repetição espaçada, cronômetro pomodoro com som binaural 40Hz, catálogo de linguagens oficiais por nicho, biblioteca de livros canônicos com resumos e resenhas, e tutor IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

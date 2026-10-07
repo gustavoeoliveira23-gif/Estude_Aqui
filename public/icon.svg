@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="125 142 256 256" fill="none">
+  <!-- Outer Glow / Ambient Accent -->
+  <filter id="neon-glow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#10B981" flood-opacity="0.35"/>
+  </filter>
+
+  <g filter="url(#neon-glow)">
+    <!-- Base Outer Black Pixel Contour (Ensures high contrast on both dark & light browser tabs) -->
+    <!-- Main Book Spine and Body Silhouette -->
+    <path d="M 180 160 L 196 160 L 196 148 L 304 148 L 316 160 L 316 172 L 328 172 L 328 296 L 336 296 L 336 312 L 328 312 L 328 328 L 216 348 L 204 360 L 204 372 L 216 372 L 216 360 L 228 360 L 228 352 L 324 336 L 324 344 L 256 356 L 248 356 L 248 364 L 228 368 L 228 376 L 216 376 L 216 384 L 200 384 L 200 376 L 196 364 L 180 348 L 172 348 L 172 176 Z" fill="#09090b" opacity="0.3"/>
+
+    <!-- PIXELATED NEON BOOK STRUCTURE -->
+
+    <!-- Outer Emerald Cyber Border -->
+    <!-- Top & Right Green Bracket -->
+    <path d="
+      M 192 168 
+      H 300 
+      V 176 
+      H 312 
+      V 188 
+      H 324 
+      V 300 
+      H 316 
+      V 196 
+      H 308 
+      V 184 
+      H 296 
+      V 176 
+      H 192 
+      Z" 
+      fill="#00F59B" />
+
+    <!-- Left Book Edge & Spine Highlight -->
+    <path d="
+      M 184 176 
+      H 192 
+      V 340 
+      H 184 
+      Z" 
+      fill="#34D399" />
+    
+    <!-- Spine Shadow / Left Dark Border -->
+    <path d="
+      M 176 184 
+      H 184 
+      V 348 
+      H 176 
+      Z" 
+      fill="#065F46" />
+
+    <path d="
+      M 168 192 
+      H 176 
+      V 344 
+      H 168 
+      Z" 
+      fill="#10B981" />
+
+    <!-- Book Inner Cover (Emerald Field) -->
+    <rect x="200" y="184" width="108" height="152" fill="#059669" rx="2" />
+    <rect x="204" y="188" width="100" height="144" fill="#10B981" rx="2" />
+
+    <!-- Top Pages (White/Mint isometric page edge) -->
+    <path d="
+      M 200 172 
+      H 292 
+      L 304 184 
+      H 200 
+      Z" 
+      fill="#A7F3D0" />
+    <path d="
+      M 204 176 
+      H 288 
+      L 296 184 
+      H 204 
+      Z" 
+      fill="#ECFDF5" />
+
+    <!-- Left Spine Dark Inset -->
+    <rect x="192" y="184" width="8" height="152" fill="#047857" />
+    <rect x="196" y="184" width="4" height="152" fill="#065F46" />
+
+    <!-- ============================================== -->
+    <!-- EMBOSSED 3D PIXEL LETTER "E"                   -->
+    <!-- ============================================== -->
+
+    <!-- "E" 3D Shadow (Deep Forest Green / Shadow layer) -->
+    <path d="
+      M 226 210
+      H 284
+      V 234
+      H 258
+      V 246
+      H 276
+      V 270
+      H 258
+      V 282
+      H 284
+      V 306
+      H 226
+      Z"
+      fill="#047857" />
+
+    <!-- "E" Extruded Bottom & Right Faces (Mid Emerald) -->
+    <path d="
+      M 222 206
+      H 280
+      V 228
+      H 252
+      V 244
+      H 272
+      V 266
+      H 252
+      V 282
+      H 280
+      V 304
+      H 222
+      Z"
+      fill="#059669" />
+
+    <!-- "E" Main Front Face (Vibrant Neon Mint / Bright Emerald) -->
+    <path d="
+      M 218 202
+      H 276
+      V 222
+      H 248
+      V 240
+      H 268
+      V 260
+      H 248
+      V 278
+      H 276
+      V 298
+      H 218
+      Z"
+      fill="#34D399" />
+
+    <!-- "E" Top & Left Highlights (Bright Mint Neon Accent) -->
+    <path d="
+      M 218 202
+      H 276
+      V 208
+      H 224
+      V 298
+      H 218
+      Z"
+      fill="#A7F3D0" />
+    <path d="
+      M 224 240
+      H 268
+      V 245
+      H 224
+      Z"
+      fill="#A7F3D0" />
+    <path d="
+      M 224 278
+      H 276
+      V 283
+      H 224
+      Z"
+      fill="#A7F3D0" />
+
+    <!-- ============================================== -->
+    <!-- BOTTOM BOOK STAND & ACCENTS                    -->
+    <!-- ============================================== -->
+    <!-- Bottom Ribbon / Feet -->
+    <path d="
+      M 204 336
+      H 308
+      V 344
+      H 204
+      Z"
+      fill="#00F59B" />
+    <path d="
+      M 208 344
+      H 224
+      V 364
+      H 216
+      V 354
+      H 208
+      Z"
+      fill="#00F59B" />
+    <path d="
+      M 216 354
+      H 224
+      V 364
+      H 216
+      Z"
+      fill="#059669" />
+
+    <!-- Bottom Right Cyber Line -->
+    <path d="
+      M 240 336
+      H 312
+      V 342
+      H 240
+      Z"
+      fill="#050807" />
+    <path d="
+      M 244 340
+      H 300
+      V 344
+      H 244
+      Z"
+      fill="#34D399" />
+
+    <!-- ============================================== -->
+    <!-- PIXEL CURSOR ARROWS & GLITCH PARTICLES         -->
+    <!-- ============================================== -->
+
+    <!-- Main Large Pixel Cursor (Bottom-Right) -->
+    <!-- Black Cursor Border -->
+    <path d="
+      M 314 280
+      V 318
+      H 322
+      V 314
+      H 326
+      V 318
+      H 332
+      V 324
+      H 336
+      V 316
+      H 332
+      V 312
+      H 328
+      V 308
+      H 338
+      V 300
+      H 330
+      V 294
+      H 324
+      V 288
+      H 318
+      V 280
+      Z"
+      fill="#050807" />
+    <!-- Bright Mint Cursor Fill -->
+    <path d="
+      M 316 284
+      V 314
+      H 322
+      V 308
+      H 326
+      V 314
+      H 330
+      V 312
+      H 326
+      V 304
+      H 334
+      V 298
+      H 326
+      V 292
+      H 322
+      V 286
+      H 316
+      Z"
+      fill="#00F59B" />
+    <path d="
+      M 318 288
+      V 308
+      H 322
+      V 300
+      H 326
+      V 296
+      H 320
+      Z"
+      fill="#A7F3D0" />
+
+    <!-- Small Pixel Cursor (Middle-Right) -->
+    <path d="
+      M 308 244
+      V 266
+      H 314
+      V 262
+      H 318
+      V 266
+      H 322
+      V 260
+      H 318
+      V 256
+      H 324
+      V 252
+      H 316
+      V 248
+      H 312
+      V 244
+      Z"
+      fill="#050807" />
+    <path d="
+      M 310 248
+      V 262
+      H 314
+      V 258
+      H 318
+      V 254
+      H 322
+      V 252
+      H 316
+      V 248
+      Z"
+      fill="#00F59B" />
+
+    <!-- Floating Pixel Glitch Particles (Top Right of Cover) -->
+    <rect x="302" y="218" width="6" height="6" fill="#00F59B" />
+    <rect x="314" y="214" width="6" height="6" fill="#34D399" />
+    <rect x="314" y="226" width="6" height="6" fill="#00F59B" />
+    <rect x="320" y="222" width="6" height="6" fill="#6EE7B7" />
+    <rect x="306" y="232" width="6" height="6" fill="#10B981" />
+  </g>
+</svg>
